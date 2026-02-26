@@ -36,6 +36,29 @@ hr {
   border-top: 1px solid #e5e5e5;
 }
 
+.content-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.text-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.photo-content {
+  flex-shrink: 0;
+}
+
+.photo-content img {
+  width: auto;
+  height: 280px;
+  display: block;
+  border-radius: 4px;
+}
+
 h1 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -43,7 +66,7 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .intro {
