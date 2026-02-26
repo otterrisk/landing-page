@@ -40,7 +40,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 3rem;
+  column-gap: 3rem;
 }
 
 .text-content {
@@ -57,6 +57,16 @@ hr {
   height: 280px;
   display: block;
   border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .content-layout {
+    flex-direction: column;
+  }
+
+  .photo-content img {
+    height: 280px;
+  }
 }
 
 h1 {
