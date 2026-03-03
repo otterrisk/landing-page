@@ -80,7 +80,14 @@ h2 {
 }
 
 .intro {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.tech-stack {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    opacity: 0.75;
+    letter-spacing: 0.1em;
 }
 
 .capabilities {
